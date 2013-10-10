@@ -1,0 +1,44 @@
+body {
+    min-height: 500px;
+    padding-top: 70px;
+}
+
+img {
+	display: block;
+	margin: 0 auto;
+	z-index: -1;
+}
+
+#regfont {
+    font-size: 14px;
+    font-family: 'Roboto';
+}
+
+#header.center {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	z-index: -1;
+}
+
+#nav {
+	font-size: 16px;
+	font-family: 'Droid Sans', sans-serif;
+	text-align: center;
+	position: relative;
+	position
+	z-index: 1;
+}
+
+#content {
+	font-size: 14px;
+	font-family: 'Roboto';
+	text-align: left;
+    padding: 0cm 5cm 0cm 5cm;
+}
+
+#monospace {
+	font-size: 14;
+	font-family: 'Droid Sans Mono', monospace;
+}
