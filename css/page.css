@@ -1,11 +1,22 @@
 body {
-	margin-top: 50px; /* 50px is the height of the navbar - change this if the navbarn height changes */
+	margin-top: 50px;
 }
 
 img {
 	display: block;
 	margin: 0 auto;
 	z-index: -1;
+}
+
+.icon-div {
+	text-align: justify;
+}
+
+.icon {
+	display: inline-block;
+	height:50px;
+	width: 50px;
+	margin: 5px;
 }
 
 #regfont {
@@ -21,6 +32,14 @@ img {
 	z-index: -1;
 }
 
+.logo-label {
+	font-family: 'Roboto';
+	font-size: 4em;
+	font-weight: bold;
+	color: black;
+	text-align: center;
+}
+
 
 #content {
 	font-size: 14px;
@@ -29,7 +48,7 @@ img {
     padding: 0cm 5cm 0cm 5cm;
 }
 
-#monospace {
+.monospace {
 	font-size: 14;
 	font-family: 'Droid Sans Mono', monospace;
 }
@@ -49,6 +68,20 @@ img {
 	height: 450px;
 }
 
+.full-width-image-gitlab {
+	background:url(../img/gitlabback.png) no-repeat center center;
+	background-size: cover;
+	text-align: center;
+	height: 350px;
+}
+
+.full-width-image-ghost {
+	background:url(../img/ghostback.png) no-repeat center center;
+	background-size: cover;
+	text-align: center;
+	height: 350px;
+}
+
 .logo-wrapper {
 	display: inline-block;
 }
@@ -59,11 +92,13 @@ img {
 }
 
 .section-heading {
+	font-family: 'Roboto';
 	font-size: 4em;
 	margin: 30px 0;
 }
 
 .section-lead {
+	font-family: 'Roboto';
 	margin: 30px 0;
 }
 
