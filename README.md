@@ -1,3 +1,7 @@
-### A not very good thing
+## wwebsite as on the internet 
 
-Please do not read this it's embarrassing :s
+Built with:
+* [Bootstrap](https://github.com/twbs/bootstrap)
+* [Font Awesome](http://fortawesome.github.io/Font-Awesome/)
+
+Working off a template from [startbootstrap](https://github.com/IronSummitMedia/startbootstrap)
