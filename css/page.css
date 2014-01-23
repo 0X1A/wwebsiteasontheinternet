@@ -12,6 +12,11 @@ img {
     color: #222222;
 }
 
+.nav-icon {
+    color: white;
+    font-size: 1.5em;
+}
+
 .logo-label {
     font-family: 'Roboto';
     font-size: 4em;
