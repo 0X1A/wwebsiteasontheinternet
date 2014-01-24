@@ -2,10 +2,12 @@ $(document).ready(function() {
         $('#Home').popover({content: 'Home', animation: true, trigger: 'hover', placement: 'bottom'});
         $('#Code').popover({content: 'Projects', animation: true, trigger: 'hover', placement: 'bottom'});
         $('#Contact').popover({content: 'Contact', animation: true, trigger: 'hover', placement: 'bottom'});
+        $('#Res').popover({content: 'Resources', animation: true, trigger: 'hover', placement: 'bottom'});
         $('#Blog').popover({content: 'Blog', animation: true, trigger: 'hover', placement: 'bottom'});
-        $('#Head').scrollTop(80);
-        $('#Head2').scrollTop(80);
-        $('#Head3').scrollTop(80);
+        $('#sHome').scrollTop(80);
+        $('#sCode').scrollTop(80);
+        $('#sContact').scrollTop(80);
+        $('#sRes').scrollTop(80);
 $(function() {
   $('a[href*=#]:not([href=#])').click(function() {
     if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
