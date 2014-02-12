@@ -2,6 +2,7 @@
 layout: post
 title:  "(At Least) A Commit a Day for 30 Days"
 date:   2013-12-02
+tags: misc
 ---
 
 About 30 days ago I started my daily groggy morning, booting up my machines, checking for updates, reading the top posts on HN and /r/linux, and making coffee. I don't quite remember which of all the sites I tend to regular, was a link to a blog (more than likely it was HN). I just read the title, which I also don't remember, though it was probably something along the lines of '30 Days of Commits'. I immediately thought 'shit, I should do that'. So I have and here is the obligatory blog post.

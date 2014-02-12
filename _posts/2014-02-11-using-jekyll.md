@@ -1,7 +1,8 @@
 ---
 layout: post
-title: "Using Jekyll"
+title: "Jekyll for Slinging Pages"
 date: 2014-02-11
+tags: misc
 ---
 
 ## Limited Resources
@@ -11,5 +12,5 @@ My first introduction to Jekyll was with [Octopress](http://octopress.org/), at 
 
 In order to make better use of the limited resources this now 10 year old laptop has, I had to out a few things. Most notably Ghost, as running a NodeJS server didn't make much sense as I'm already using Apache.
 
-## Jekyll for Slinging Pages
-[Jekyll](http://jekyllrb.com/) is a simple way to create static pages using templates. That is, it builds the pages using the sources given, and creates a directory filled with the generated site. Now, I would definately not call myself a web developer, nor would I call myself a designer, though with the boilerplate jekyll templates and basic knowledge of CSS, HTML, & JavaScript, I have been able to create both this blog and my main site. The jekyll page is very concise and introduces itself very well, so I won't be getting into that at all.
+## Slap Some Markup on that Screen
+[Jekyll](http://jekyllrb.com/) is a simple way to create static pages using templates. That is, it builds the pages using the sources given, and creates a directory filled with the generated site. Now, I would definately not call myself a web developer, nor would I call myself a designer, though with the boilerplate jekyll templates and basic knowledge of CSS, HTML, & JavaScript, I have been able to create both this blog and my main site.

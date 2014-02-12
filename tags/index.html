@@ -1,0 +1,21 @@
+---
+layout: tags
+title: Tags - 0X1A
+---
+<div class="row">
+    <h1 class="section-heading">Tags</h1>
+    <ul class="posts">
+        <h3>Dev</h3>
+        {% for post in site.tags.dev limit: 20 %}
+        <li>
+        <span>{{ post.date | date_to_string }}</span>  |  <a href="{{ post.url }}">{{ post.title }}</a>
+        </li>
+        {% endfor %}
+        <h3>Misc</h3>
+        {% for post in site.tags.misc limit: 20 %}
+        <li>
+        <span>{{ post.date | date_to_string }}</span>  |  <a href="{{ post.url }}">{{ post.title }}</a>
+        </li>
+        {% endfor %}
+    </ul>
+</div>

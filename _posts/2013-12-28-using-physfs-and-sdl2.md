@@ -2,6 +2,7 @@
 layout: post
 title:  "Using PhysFS and SDL2"
 date:   2013-12-28 10:03:24
+tags: dev
 ---
 
 This is a basic tutorial on how to implement PhysicsFS and SDL using the SDL_RWops structure. (This tutorial assumes that the reader has basic knowledge of using SDL)
@@ -72,3 +73,4 @@ SetArchive("Content/test.zip");
 LoadAsset("testimage.png");
 FreeMemory();
 {% endhighlight %}
+These functions serve only as a way to get the general idea across for loading an asset from compressed file to memory, and then finally to video memory.
