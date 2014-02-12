@@ -1,0 +1,114 @@
+body {
+    margin-top: 50px;
+    color: #303030;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    z-index: -1;
+    height: auto;
+    width: auto;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.icon {
+    color: #222222;
+}
+
+.nav-icon {
+    font-weight: normal;
+    font-family: Roboto;
+    color: white;
+    font-size: 1.25em;
+}
+
+.logo-label {
+    font-family: 'Roboto';
+    font-size: 4em;
+    color: black;
+    text-align: center;
+}
+
+.monospace {
+    font-size: 14;
+    font-family: 'Droid Sans Mono', monospace;
+}
+
+.section {
+    padding-top: 20px;
+}
+
+.section-heading {
+    font-family: 'Roboto';
+    font-size: 3.5em;
+    margin: 30px 0;
+}
+
+.section-mono {
+    font-family: 'Droid Sans Mono';
+    color: #268BD2;
+    font-size 1em;
+}
+
+.section-lead {
+    font-family: 'Roboto';
+    margin: 30px 0;
+}
+
+.section-paragraph {
+    margin: 30px 0;
+}
+
+@media (max-width: 768px) {
+
+    .section-heading {
+        font-size: 2em;
+    }
+
+    .section {
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+
+}
+
+.site {
+    text-align: justify;
+    width: 55em;
+    margin: 1em auto 1em;
+    line-height: 1.5em;
+}
+
+.footer {
+    font-family: 'Roboto';
+    color: #666;
+    border-top: 4px solid #eee;
+    margin-top: 2em;
+    overflow: hidden;
+}
+
+.footer .contact {
+    float: left;
+    margin-right: 3em;
+}
+
+.footer .contact a {
+    color: #8085C1;
+}
+
+.footer .rss {
+    margin-top: 1.1em;
+    margin-right: -.2em;
+    float: right;
+}
+
+.footer .icon {
+    font-size: 1.5em;
+    color: #666;
+}
+
+.footer .rss img {
+    border: 0;
+}
