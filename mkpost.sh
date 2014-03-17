@@ -1,11 +1,12 @@
 #!/bin/bash
 
 DATE=$(date +%Y-%m-%d)
-echo "Enter post name:"
+echo "Enter post filename:"
 read PSTNME
 POST=$DATE-$PSTNME.md
 touch _posts/$DATE-$PSTNME.md
 echo --- > _posts/$POST
+echo "layout: post" >> _posts/$POST
 echo "Enter title:"
 read TTLE
 echo "title: \"$TTLE\"" >> _posts/$POST
