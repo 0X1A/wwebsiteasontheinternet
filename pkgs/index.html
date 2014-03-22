@@ -6,6 +6,11 @@ title: Packages - 0X1A
 <div class="row">
 	<h1 class="section-heading">Packages</h1>
 	<ul class="posts">
-		<li><a href="http://0x1a.us/pkgs/yaourt.tar.gz">Yaourt 1.3 + Package Query 1.2</a></li>
+		{% for pkg in site.data.pkgs %}
+		<h2>{{pkg.dist}}</h2>
+		<li>
+		<a href="{{site.url}}{{pkg.file}}">{{pkg.name}}</a>
+		</li>
+		{% endfor %}
 	</ul>
 </div>
