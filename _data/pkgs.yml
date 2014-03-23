@@ -1,3 +1,109 @@
-- dist: Arch
-  name: Yaourt 1.3 and Package Query 1.2
+- name: Yaourt and Package Query
+  vers: 1.3-1 + 1.2-2
   file: yaourt.tar.gz
+  desc: Pacman package helper
+
+- name: Mingw-w64-dbus 
+  vers: 1.8.0-1
+  file: mingw-w64-dbus-1.8.0-1-any.pkg.tar.xz
+  desc: Freedesktop.org message bus system 
+
+- name: Mingw-w64-gettext 
+  vers: 0.18.3.2-1
+  file: mingw-w64-gettext-0.18.3.2-1-any.pkg.tar.xz
+  desc: GNU internationalization library
+
+- name: Mingw-w64-libcrypt 
+  vers: 1.12-2
+  file: mingw-w64-libgcrypt-1.5.3-3-any.pkg.tar.xz
+  desc: General purpose cryptographic library based on the code from GnuPG
+
+- name: Mingw-w64-libgpg-error 
+  vers: 1.12-2
+  file: mingw-w64-libgpg-error-1.12-2-any.pkg.tar.xz
+  desc: Support library for libgcrypt
+
+- name: Mingw-w64-libiconv 
+  vers: 1.14-8
+  file: mingw-w64-libiconv-1.14-8-any.pkg.tar.xz
+  desc: libiconv
+
+- name: Mingw-w64-libjpeg-turbo 
+  vers: 1.3.0-4
+  file: mingw-w64-libjpeg-turbo-1.3.0-4-any.pkg.tar.xz
+  desc: JPEG image codec with accelerated baseline compression and decompression 
+
+- name: Mingw-w64-libmariadbclient 
+  vers: 5.5.36-1
+  file: mingw-w64-libmariadbclient-5.5.36-1-any.pkg.tar.xz
+  desc: MariaDB client libraries
+
+- name: Mingw-w64-libpng 
+  vers: 1.6.10-1
+  file: mingw-w64-libpng-1.6.10-1-any.pkg.tar.xz
+  desc: A collection of routines used to create PNG format graphics
+
+- name: Mingw-w64-libtiff 
+  vers:  4.0.3-3
+  file: mingw-w64-libtiff-4.0.3-3-any.pkg.tar.xz
+  desc: Library for manipulation of TIFF images
+
+- name: Mingw-w64-libxml2 
+  vers: 2.9.1-3
+  file: mingw-w64-libxml2-2.9.1-3-any.pkg.tar.xz
+  desc: XML parsing library, version 2
+
+- name: Mingw-w64-libxslt 
+  vers: 1.1.28-1
+  file: mingw-w64-libxslt-1.1.28-4-any.pkg.tar.xz
+  desc: XML stylesheet transformation library
+
+- name: Mingw-w64-openssl 
+  vers: 1.0.1
+  file: mingw-w64-openssl-1.0.1.f-1-any.pkg.tar.xz
+  desc: The Open Source toolkit for Secure Sockets Layer and Transport Layer Security
+
+- name: Mingw-w64-pdcurses 
+  vers: 3.4-2
+  file: mingw-w64-pdcurses-3.4-2-any.pkg.tar.xz
+  desc: Curses library for MinGW
+
+- name: Mingw-w64-pkg-config 
+  vers: 2.3
+  file: mingw-w64-pkg-config-2-3-any.pkg.tar.xz
+  desc: Support pkg-config script
+
+- name: Mingw-w64-postgresql-libs 
+  vers: 9.3.4-1
+  file: mingw-w64-postgresql-libs-9.3.4-1-any.pkg.tar.xz
+  desc: Libraries for use with PostgreSQL
+
+- name: Mingw-w64-qt4
+  vers: 4.8.5-5
+  file: mingw-w64-qt4-4.8.5-5-x86_64.pkg.tar.xz
+  desc: A cross-platform application and UI framework
+
+- name: Mingw-w64-readline 
+  vers: 6.2.004-3
+  file: mingw-w64-readline-6.2.004-3-any.pkg.tar.xz
+  desc: MinGW port of readline for editing typed command lines
+
+- name: Mingw-w64-sqlite3 
+  vers: 3.8.4.1-1
+  file: mingw-w64-sqlite3-3.8.4.1-1-any.pkg.tar.xz
+  desc: A C library that implements an SQL database engine 
+
+- name: Mingw-w64-tcl
+  vers: 8.6.1-5
+  file: mingw-w64-tcl-8.6.1-5-any.pkg.tar.xz
+  desc: The Tcl scripting language
+
+- name: Mingw-w64-termcap
+  vers: 1.3.1-6
+  file: mingw-w64-termcap-1.3.1-6-any.pkg.tar.xz
+  desc: Terminal feature database
+
+- name: Mingw-w64-zlib 
+  vers: 1.2.8-3
+  file: mingw-w64-zlib-1.2.8-3-any.pkg.tar.xz
+  desc: A compression/decompression Library
