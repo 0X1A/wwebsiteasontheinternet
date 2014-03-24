@@ -8,6 +8,11 @@
   file: mingw-w64-dbus-1.8.0-1-any.pkg.tar.xz
   desc: Freedesktop.org message bus system 
 
+- name: Mingw-w64-expat
+  vers: 2.1.0
+  file: mingw-w64-expat-2.1.0-5-any.pkg.tar.xz
+  desc: An XML parser library
+
 - name: Mingw-w64-gettext 
   vers: 0.18.3.2-1
   file: mingw-w64-gettext-0.18.3.2-1-any.pkg.tar.xz
