@@ -3,9 +3,12 @@ layout: post
 title:  "Using PhysFS and SDL2"
 date:   2013-12-28 10:03:24
 tags: dev
+desc: Somewhere out there, in memory
 ---
 
-This is a basic tutorial on how to implement PhysicsFS and SDL using the SDL_RWops structure. (This tutorial assumes that the reader has basic knowledge of using SDL)
+This is a basic tutorial on how to implement PhysicsFS and SDL using the 
+SDL_RWops structure. (This tutorial assumes that the reader has basic knowledge 
+of using SDL)
 
 ##The process for this is as follows:
 
@@ -26,7 +29,8 @@ int SetArchive(const std::string Archive) 	    \\Function to set the archive bei
 {% endhighlight %}
 
 ### 2. Opening the file
-Now that the archive is set a file within it can be opened. This function opens a file within the arcive set by `SetArchive`.
+Now that the archive is set a file within it can be opened. This function opens 
+a file within the arcive set by `SetArchive`.
 {% highlight c++ %}
 const char *OpenFile(const std::string O_File)
 {
@@ -41,7 +45,8 @@ const char *OpenFile(const std::string O_File)
 {% endhighlight %}
 
 ### 3. Loading using SDL
-The file is now on memory and can be passed to SDL_RWops (this example is assuming you want to load an image to a surface and loading it to a texture):
+The file is now on memory and can be passed to SDL_RWops (this example is 
+assuming you want to load an image to a surface and loading it to a texture):
 {% highlight c++ %}
 int LoadAsset(const std::string Asset)
 {
@@ -54,7 +59,8 @@ int LoadAsset(const std::string Asset)
 {% endhighlight %}
 
 ### 4. Freeing memory
-With the provided functions memory is being used but not freed and memory leaks are bad.
+With the provided functions memory is being used but not freed and memory leaks 
+are bad.
 {% highlight c++ %}
 int FreeMemory()
 {
@@ -73,4 +79,5 @@ SetArchive("Content/test.zip");
 LoadAsset("testimage.png");
 FreeMemory();
 {% endhighlight %}
-These functions serve only as a way to get the general idea across for loading an asset from compressed file to memory, and then finally to video memory.
+These functions serve only as a way to get the general idea across for loading 
+an asset from compressed file to memory, and then finally to video memory.

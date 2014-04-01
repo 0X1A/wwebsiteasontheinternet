@@ -3,6 +3,7 @@ layout: post
 title:  "/etc/os-release"
 date:   2013-11-11
 tags: dev
+desc: A shell script for all
 ---
 
 ### Why the hell is this file important?
