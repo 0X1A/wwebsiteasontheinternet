@@ -1,4 +1,4 @@
 name: Alberto Corona
 markdown: redcarpet
 pygments: true
-exclude: [mkpost.sh]
+exclude: [mkpost.sh, mksite.sh]
