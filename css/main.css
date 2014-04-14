@@ -176,6 +176,11 @@ a:visited { color: #303030; }
     text-decoration: underline;
 }
 
+.post img {
+    max-height: 100%;
+    max-width: 100%;
+}
+
 .post pre {
     font-size: 1em;
     border: 1px solid #ddd;
