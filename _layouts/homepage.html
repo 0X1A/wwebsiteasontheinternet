@@ -12,7 +12,7 @@
 <!-- Custom CSS -->
 <link rel="stylesheet" href="/css/bootstrap.css">
 <link rel="stylesheet" href="/css/page.css">
-<link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700|Roboto:400,300,500,700' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700|Roboto:400,300,500,700|Droid+Sans+Mono' rel='stylesheet' type='text/css'>
 <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.1/css/font-awesome.css" rel="stylesheet">
 <link rel="shortcut icon" href="/img/icon.ico">
 
@@ -31,7 +31,7 @@
         </div>
         <div class="collapse navbar-collapse navbar-ex1-collapse">
             <ul class="nav navbar-nav">
-                <li><a id="Home" href="#sHome"style="color:white" class="nav-icon">Home</a></li>
+                <li class="active"><a id="Home" href="#sHome" style="color:white" class="nav-icon">Home</a></li>
                 <li><a id="Code" href="#sCode" style="color:white" class="nav-icon">Projects</a></li>
                 <li><a id="Contact" href="#sContact" style="color:white" class="nav-icon">Contact</a></li>
                 <li><a id="Blog" href="blog" style="color:white" class="nav-icon">Blog</a></li>
@@ -45,21 +45,6 @@
 <script type='text/javascript' src='/js/jquery.js'></script>
 <script type='text/javascript' src='/js/bootstrap.min.js'></script>
 <script type='text/javascript' src='/js/page.js'></script>
-<script type="text/javascript">
-var sc_project=9063186; 
-var sc_invisible=1; 
-var sc_security="f8cb8367"; 
-var scJsHost = (("https:" == document.location.protocol) ?
-        "https://secure." : "http://www.");
-document.write("<sc"+"ript type='text/javascript' src='" +
-        scJsHost+
-        "statcounter.com/counter/counter.js'></"+"script>");
-</script>
-<noscript><div class="statcounter"><a title="free hit
-            counters" href="http://statcounter.com/"
-            target="_blank"><img class="statcounter"
-            src="http://c.statcounter.com/9063186/0/f8cb8367/1/"
-            alt="free hit counters"></a></div></noscript>
-
+{% include stats.html %}
 </body>
 </html>

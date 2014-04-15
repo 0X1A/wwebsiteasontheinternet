@@ -2,13 +2,43 @@
 layout: default
 title: Blog - 0X1A
 ---
-
 <div class="row">
-	<h1 class="section-heading">Posts</h1>
-	<ul class="posts">
-		{% for post in site.posts %}
-		<li><span>{{ post.date | date_to_string }}</span>  |  <a href="{{ post.url }}">{{ post.title }} - <span>{{ post.desc }}</span></a></li>
+	<div class="col-lg-12 section">
+		{% for post in paginator.posts %}
+		<h1 class="section-heading"><a href="{{post.url}}">{{ post.title }}</a></h1>
+			<p class="section-lead">{{ post.desc }}</p>
+			<p class="meta"><i class="fa fa-calendar"></i> {{ post.date | date_to_string }} | <a href="{{ site.url }}/blog/tags"> <i class="fa fa-tags"></i> {{ post.tags }}</a></p>
+		<div class="post">
+			{{ post.excerpt }}
+		</div>
+			<div class="btn-group btn-group-justified">
+			<div class="btn-group"><a href="{{ post.url }}"><button type="button" class="btn btn-default">Read more...</button></a></div>
+			</div>
+			<hr>
 		{% endfor %}
-	</ul>
-	<a href="{{ site.url }}/blog/tags">Tags</a>
+	<div class="text-center">
+		<ul class="pagination">
+			{% if paginator.previous_page %}
+			{% if paginator.previous_page == 1 %}
+			<li><a href="{{ site.url }}/blog">Newest</a></li>					
+			<li><a href="{{ site.url }}/blog">Previous</a></li>
+			{% else %}
+			<li><a href="{{ site.url }}/blog">Newest</a></li>			
+			<li><a href="{{ site.url }}/blog/page{{ paginator.previous_page }}">Previous</a></li>
+			{% endif %}
+			{% else %}
+			<li class="disabled"><span>Newest</span></li>
+			<li class="disabled"><span>Previous</span></li>
+			{% endif %}
+			{% if paginator.next_page %}
+			<li><a href="/blog/page{{ paginator.next_page }}">Next</a></li>
+			<li><a href="/blog/page{{ paginator.total_pages }}">Oldest</a></li>
+			{% else %}
+			<li class="disabled"><span>Next</span></li>
+			<li class="disabled"><span>Oldest</a></li>
+			{% endif %}
+		</ul>
+		</div>
+		Page {{ paginator.page }} of {{ paginator.total_pages }}		
+	</div>
 </div>
