@@ -14,7 +14,7 @@ With the Google Summer of Code coming around I've recently had first hand
 experience on what happens when you don't practice good contribution guidelines.
 That is, I had never contributed to a project that wasn't actively managed
 through GitHub. Mailing patches was a completely foreign idea to me, and was
-completely unaware that this is the way git was ment to be used. So then, what
+completely unaware that this is the way git was meant to be used. So then, what
 exactly makes good (n)etiquette?
 
 ## Sign Your Commits
@@ -64,13 +64,15 @@ smtpserverport = 587
 Now that you've got git configured with your email you can go ahead and send that
 patch.
 {% highlight bash %}
-$ git send-email 0001-Your-commit-message.patch --to="Project Mailinglist <project@mailinglist.org>" --cc="Project Maintainer <maintainer@email.com>"
+$ git send-email 0001-Your-commit-message.patch --to="Project Mailing list 
+<project@mailinglist.org>" --cc="Project Maintainer <maintainer@email.com>"
 {% endhighlight %}
 Alternatively, if you use an email client you can simply attach that patch to the
 message.
 
-## Follow Proper Mailinglist Practice
-No html, don't reply to digests, no top posting. As a first time active replier 
+## Follow Proper Mailing list Practice
+No HTML, don't reply to digests, no top posting. As a first time active 
+participant 
 in a mailing list I had no clue what top/bottom posting was, so here's a quick 
 run down of what both look like.
 ### Top Posting
@@ -97,7 +99,7 @@ Using bottom posting you're allowing the person that reads your response to see
 exactly what you were responding to. It's also best to only quote what you are
 responding to, leaving a line between the quoted text and your response. Also,
 **don't forget to Cc the mailing list!** If you reply to someone and do not Cc
-the list then everone subscribed to the list will likely not see what you had
+the list then everyone subscribed to the list will likely not see what you had
 said in your message.
 
 ## Don't be a Git
@@ -114,7 +116,7 @@ do?) Make good changes, write good commit messages, have good (n)etiquette, and
 don't be a git.
 
 Now go, dig into some source, find something you can patch and submit your 
-chages.
+changes.
 
 #### Resources
 - [Submitting patches](https://www.kernel.org/doc/Documentation/SubmittingPatches)

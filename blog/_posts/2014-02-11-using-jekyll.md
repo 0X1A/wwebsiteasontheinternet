@@ -6,7 +6,6 @@ tags: misc
 desc: Throw pretty things at visitor's faces
 ---
 
-## Limited Resources
 My first introduction to Jekyll was with [Octopress](http://octopress.org/), at 
 the time I was entirely new to running a server and didn't quite understand how 
 to get anything running. While I'd like to think I can savvily maintain my 

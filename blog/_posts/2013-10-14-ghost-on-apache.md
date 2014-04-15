@@ -2,7 +2,8 @@
 layout: post
 title: Ghost On Apache
 date: 2013-10-14
-tags: misc
+tags:
+ - misc
 desc: Get Ghost running on Apache
 ---
 

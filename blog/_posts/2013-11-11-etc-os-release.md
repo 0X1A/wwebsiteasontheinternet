@@ -6,7 +6,6 @@ tags: dev
 desc: A shell script for all
 ---
 
-### Why the hell is this file important?
 I have the horrible habit of distro-hopping. I've constantly had to set up my dotfiles. I honestly can't remember the amount of times or the amount of distros I have installed on my machines, but it's easily been about a hundred times during the past 2 years. So I thought to myself, why not just write a script that installs everything I normally use? Enter my discovery of `/etc/os-release` (the replacement of `lsb_release`). This file contains information such as the distribution name, webpage url, support url and a bug reporting url.
 
 Output of `cat /etc/os-release` on Arch Linux:
