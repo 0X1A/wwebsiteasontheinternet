@@ -32,7 +32,7 @@ a:visited { color: #303030; }
 
 .section-heading {
     font-family: 'Roboto';
-    font-size: 3em;
+    font-size: 2.75em;
     margin: 30px 0;
 }
 
@@ -54,11 +54,11 @@ a:visited { color: #303030; }
 .posts {
     font-family: 'Roboto';
     list-style-type: none;
-    margin-bottom: 2em;
+    margin-bottom: 1.75em;
 }
 
 .posts li {
-    font-size: 1.5em;
+    font-size: 1.25em;
     line-height: 2em;
 }
 
@@ -78,7 +78,7 @@ a:visited { color: #303030; }
 .site {
     text-align: left;
     width: auto;
-    max-width: 90%;
+    max-width: 80%;
     margin: 1em auto 1em;
     line-height: 1.5em;
 }
@@ -156,7 +156,7 @@ a:visited { color: #303030; }
 /* standard */
 .post {
     font-family: "Droid Serif", serif;
-    line-height: 2.25em;
+    line-height: 1.75em;
 }
 
 .post h2, h3, h4 {
@@ -164,7 +164,7 @@ a:visited { color: #303030; }
 }
 
 .post p {
-    font-size: 1.25em;
+    font-size: 1.15em;
     padding-top: 5px;
     padding-bottom: 5px;
 }
