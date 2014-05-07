@@ -1,6 +1,6 @@
 name: Alberto Corona
 markdown: redcarpet
-pygments: true
+highlighter: pygments
 exclude: [mkpost.sh, mksite.sh]
 
 paginate: 5
