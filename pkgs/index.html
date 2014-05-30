@@ -24,4 +24,19 @@ title: Packages - 0X1A
 		{% endfor %}
 	</table>
 	</div>
+	<div class="col-lg-12 section">
+	<h2 class="section-heading">Getting These Packages</h1>
+	<p>To add these packages to your Pacman repositories you can add this server to your <code>pacman.conf</code>
+	<pre>
+	[0X1A]
+	SigLevel = Never # See details below about getting signed packages
+	Server = http://0x1a.us/pkgs
+	</pre>
+	For signed packages you can add my key to your Pacman keyring using my GPG keyid <code>4B2076CA</code>. (For more details
+	visit <b><a href="https://wiki.archlinux.org/index.php/pacman-key#Adding_unofficial_keys">the Arch Wiki</a></b>). With this
+	change you can set the <code>SigLevel</code> section of the repo to either <code>TrustedOnly</code> or which ever other option you'd like.
+	(More information on <code>SigLevel</code> is available on the <b><a href="https://wiki.archlinux.org/index.php/pacman-key#Setup">
+	Arch Wiki</a></b>)
+	</p>
+	</div>
 </div>
