@@ -1,7 +1,12 @@
-- name: Yaourt and Package Query
-  vers: 1.3-1 + 1.2-2
-  file: yaourt.tar.gz
+- name: Yaourt
+  vers: 1.3-1
+  file: yaourt-1.3-1-any.pkg.tar.xz
   desc: Pacman package helper
+
+- name: Package Query
+  vers: 1.2-2
+  file: package-query-1.2-2-x86_64.pkg.tar.xz
+  desc:
 
 - name: Mingw-w64-bzip2
   vers: 1.0.6
@@ -25,7 +30,7 @@
 
 - name: Mingw-w64-freeglut
   vers: 2.8.1
-  file: mingw-w64-freeglut-2.8.1-2-any.pkg.tar.xz
+  file: mingw-w64-freeglut-2.8.1-3-any.pkg.tar.xz
   desc: freeglut allows the user to create and manage windows containing OpenGL contexts
 
 - name: Mingw-w64-freetype
@@ -38,7 +43,7 @@
   file: mingw-w64-gettext-0.18.3.2-1-any.pkg.tar.xz
   desc: GNU internationalization library
 
-- name: Mingw-w64-libcrypt
+- name: Mingw-w64-libgcrypt
   vers: 1.12-2
   file: mingw-w64-libgcrypt-1.5.3-3-any.pkg.tar.xz
   desc: General purpose cryptographic library based on the code from GnuPG
@@ -89,8 +94,8 @@
   desc: Vorbis codec library
 
 - name: Mingw-w64-libwebp
-  vers: 0.3.1
-  file: mingw-w64-libwebp-0.3.1-2-any.pkg.tar.xz
+  vers: 0.4.0
+  file: mingw-w64-libwebp-0.4.0-1-any.pkg.tar.xz
   desc: WbP library
 
 - name: Mingw-w64-libxml2
@@ -105,7 +110,7 @@
 
 - name: Mingw-w64-openssl 
   vers: 1.0.1
-  file: mingw-w64-openssl-1.0.1.f-1-any.pkg.tar.xz
+  file: mingw-w64-openssl-1.0.1.g-1-any.pkg.tar.xz
   desc: The Open Source toolkit for Secure Sockets Layer and Transport Layer Security
 
 - name: Mingw-w64-pdcurses 
