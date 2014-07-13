@@ -20,8 +20,8 @@ a mean to eliminate just that procrastination. What quickly became the problem,
 was what to commit.
 
 ### What to push?
-While it was easy to distract my self with [dotfiles](https://github.com/0x1A/dotfiles), 
-[window manager configurations](https://github.com/0x1A/xmonad), or [updating a website](https://github.com/0x1A/wwebsiteasontheinternet), 
+While it was easy to distract my self with [dotfiles](https://github.com/0X1A/dotfiles), 
+[window manager configurations](https://github.com/0X1A/xmonad), or [updating a website](https://github.com/0X1A/wwebsiteasontheinternet), 
 what I found difficult was adding to my larger project, a 2D game engine. Often 
 times I found myself trying to avoid it. For months I had been pushing small 
 diff commits, avoiding a quite measly object oriented design problem that I 
@@ -42,7 +42,7 @@ but this has been a habit of mine since I first picked up git, a habit I've
 found somewhat hard to break.
 
 I quickly became more effective with the workflow I had set up using my dotfiles
-and other set ups. I also sought out to use a CI server (both [my own](http://ci.0x1a.us)
+and other set ups. I also sought out to use a CI server (both [my own](http://0x1a.us/ci)
 on a local server and [Travis-CI](https://travis-ci.org)) as well as [Coveralls](https://coveralls.io).
 All of which I had no prior knowledge in using, but thanks to some useful 
 documentation I picked them up quicky and found myself becoming very fond of.

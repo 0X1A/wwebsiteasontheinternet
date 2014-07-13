@@ -34,4 +34,4 @@ Where Arch can be replaced with what ever distribution you are trying to check f
 ### Where this comes in handy
 Automation, I no longer have to install everything manually. Command, after command, after command, after package manager, it became not only annoying, but a huge time sink . All I do now is run a script that installs my doftiles, and dependencies for my development environment. It's fast, and I no longer have to waste time setting these things up after I've made the horrible decision to leave my Arch comfort zone just to checkout the development of a different distribution. 
 
-For an example of such a script you can check out [the install script](https://github.com/0x1A/dotfiles/blob/master/install.sh) for my dotfiles.
+For an example of such a script you can check out [the install script](https://github.com/0X1A/dotfiles/blob/master/install.sh) for my dotfiles.
