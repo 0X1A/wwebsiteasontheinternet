@@ -1,5 +1,5 @@
 SITE=/usr/share/nginx/html/
-BUILD=../_site
+BUILD=_site
 
 cd ../
 jekyll build
