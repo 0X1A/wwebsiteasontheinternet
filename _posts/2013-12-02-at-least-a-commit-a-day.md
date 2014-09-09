@@ -19,6 +19,7 @@ constantly choose to push back intentions to write a single line. This served as
 a mean to eliminate just that procrastination. What quickly became the problem, 
 was what to commit.
 
+
 ### What to push?
 While it was easy to distract my self with [dotfiles](https://github.com/0X1A/dotfiles), 
 [window manager configurations](https://github.com/0X1A/xmonad), or [updating a website](https://github.com/0X1A/wwebsiteasontheinternet), 

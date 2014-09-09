@@ -11,6 +11,7 @@ In order to install Ghost using Apache using a subdomain you must go through the
 regular given instructions to install Ghost and use this Apache config for your 
 Ghost instance (create the file in `/etc/apache2/sites-available` and name it 
 `whateveryouwant.conf`):
+
 ###whateveryouwant.conf
 {% highlight http %}
 <VirtualHost *:80>
