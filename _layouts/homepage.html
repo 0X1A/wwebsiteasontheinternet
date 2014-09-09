@@ -12,12 +12,11 @@
 <!-- Custom CSS -->
 <link rel="stylesheet" href="/css/bootstrap.min.css">
 <link rel="stylesheet" href="/css/main.css">
-<link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700|Roboto:400,300,500,700|Droid+Sans+Mono' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700|Roboto:400,300,500,700|Droid+Sans+Mono|Droid+Serif:400,700' rel='stylesheet' type='text/css'>
 <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.1/css/font-awesome.css" rel="stylesheet">
 <link rel="shortcut icon" href="/img/icon.ico">
 
 </head>
-
 <body data-spy="scroll" data-target=".navbar">
 <nav class="navbar navbar-fixed-top navbar-default" role="navigation">
     <div class ="container">
@@ -31,16 +30,27 @@
         </div>
         <div class="collapse navbar-collapse navbar-ex1-collapse">
             <ul class="nav navbar-nav">
-                <li class="active"><a id="Home" href="#sHome" style="color:white" class="nav-icon">Home</a></li>
-                <li><a id="Code" href="#sCode" style="color:white" class="nav-icon">Projects</a></li>
-                <li><a id="Contact" href="#sContact" style="color:white" class="nav-icon">Contact</a></li>
-                <li><a id="Blog" href="blog" style="color:white" class="nav-icon">Blog</a></li>
+                <li class="active"><a id="Home" href="/" style="color:white" class="nav-icon">Home</a></li>
             </ul>
+            <ul class="nav navbar-nav navbar-right">
+		<li><a href="{{ site.url }}/pkgs" style="color:white" class="nav-icon">Packages</a></li>
+		<li><a href="http://git.0x1a.us" style="color:white" class="nav-icon">Git</a></li>
+		<li><a href="{{ site.url }}/ci" style="color:white" class="nav-icon">CI</a></li>
+	    </ul>
         </div>
     </div>
 </nav>
+{% include about.html %}
+<div id="sBlog" class="container">
+    <div class="site">
 
-{{ content }}
+        {{ content }}
+
+    </div>
+</div>
+<footer>
+<small>Copyright 2013-2014 Alberto Corona. All content released under <a href="https://creativecommons.org/licenses/by/3.0/">CC BY 3</a>. <a href="{{ site.url }}/disclaimer">Disclaimer</a></small>
+</footer>
 
 <script type='text/javascript' src='/js/jquery.js'></script>
 <script type='text/javascript' src='/js/bootstrap.min.js'></script>
