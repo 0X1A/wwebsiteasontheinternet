@@ -2,59 +2,38 @@
 layout: homepage
 title: Home - 0X1A
 ---
-<div id="sHome" class="container">
-    <div class="row">
-        <div class="site">
-            <div class="col-lg-12 section">
-                <h1 class="section-heading">Hello,</h1>
-                <p class="lead section-lead">my name is Alberto Corona. I am a programmer and advocate of free and open source software.</p>
-            </div>
-        </div>
-    </div>
-</div>
-<div id="sCode" class="container">
-    <div class="row">
-        <div class="site">
-            <div class="col-lg-12 section">
-                <h1 class="section-heading">Motor</h1>
-                <pre>
-├── bin
-├── include
-├── LICENSE
-├── motor-conf.pri
-├── motor.pro
-├── README.md
-└── src
-                </pre>
-                <a href="{{ site.url }}/ci/motor"><img style="float:left; padding-right:10px" src="{{ site.url }}/img/motor-build.png"><img style="float:left" src="{{ site.url }}/img/motor-coverage.png"></a></br></br>
-                <p class="lead section-lead">Motor is a 2D game engine being built using SDL2, with a focus on being available cross-platform.</p>
-                <div class="btn-group btn-group-justified">
-                    <a href="motor.html" class="btn btn-default" disabled="disabled"><i class="fa fa-external-link fa-lg"></i> Website</a>
-                    <a href="https://github.com/0X1A/Motor" class="btn btn-default"><i class="fa fa-code fa-lg"></i> Repository</a>
-                    <a href="https://github.com/0X1A/motor/archive/master.zip" class="btn btn-default"><i class="fa fa-download fa-lg"></i> Download Source</a>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<div id="sContact" class="container">
-    <div class="row">
-        <div class="col-lg-12 section">
-            <div class="site">
-                <h1 class="section-heading">Contact</h1>
-                <div class="footer">
-                    <div class="contact">
-			{% include ascii.html %}
-                    </div>
-                    <div class="contact">
-                        <p>
-                        <i class="icon fa fa-github"></i><a href="https://github.com/0X1A"> github.com/0X1A</a><br />
-                        <i class="icon fa fa-envelope"></i><a href="mailto:albcoron@gmail.com"> albcoron@gmail.com</a><br />
-			<i class="icon fa fa-lock"></i><a href="{{ site.url }}/pub.key"> Public GPG Key</a><br />
-                        </p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+
+<div class="row">
+	<div class="col-lg-12 section" style="background: white">
+		{% for post in paginator.posts %}
+		<h1 class="section-heading"><a href="{{post.url}}">{{ post.title }}</a></h1>
+			<p class="section-lead">{{ post.desc }}</p>
+			<p class="meta"><i class="fa fa-calendar"></i> {{ post.date | date_to_string }} | <a href="{{ site.url }}/tags"> <i class="fa fa-tags"></i> {{ post.tags }}</a></p>
+			<hr>
+		{% endfor %}
+	<div class="text-center">
+		<ul class="pagination">
+			{% if paginator.previous_page %}
+			{% if paginator.previous_page != 1 %}
+			<li><a href="{{ site.url }}">Newest</a></li>
+			<li><a href="{{ site.url }}">Previous</a></li>
+			{% else %}
+			<li><a href="/">Newest</a></li>
+			<li><a href="/">Previous</a></li>
+			{% endif %}
+			{% else %}
+			<li class="disabled"><span>Newest</span></li>
+			<li class="disabled"><span>Previous</span></li>
+			{% endif %}
+			{% if paginator.next_page %}
+			<li><a href="/page{{ paginator.next_page }}">Next</a></li>
+			<li><a href="/page{{ paginator.total_pages }}">Oldest</a></li>
+			{% else %}
+			<li class="disabled"><span>Next</span></li>
+			<li class="disabled"><span>Oldest</a></li>
+			{% endif %}
+		</ul>
+		</div>
+		<div class="text-center">Page {{ paginator.page }} of {{ paginator.total_pages }}</div>
+	</div>
 </div>
