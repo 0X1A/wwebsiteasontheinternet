@@ -20,6 +20,16 @@ p {
     margin: 1em 0;
 }
 
+.icon-row {
+	padding-right:20px;
+	padding-left: 20px;
+}
+
+.container-padding {
+	padding-bottom: 20px;
+	padding-top: 10px;
+}
+
 img {
     display: block;
     margin: 0 auto;
@@ -78,8 +88,8 @@ a:visited { color: #303030; }
 .site {
     text-align: left;
     width: auto;
-    max-width: 80%;
-    margin: 1em auto 1em;
+    max-width: 95%;
+    margin: .5em auto .5em;
     line-height: 1.5em;
 }
 
