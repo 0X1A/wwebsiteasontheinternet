@@ -1,0 +1,77 @@
+==================================================================
+https://keybase.io/0x1a
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://0x1a.us
+  * I am 0x1a (https://keybase.io/0x1a) on keybase.
+  * I have a public key with fingerprint 8119 61C1 1B7A 9019 751D  DF8B FB0C 5DDE 4B20 76CA
+
+To claim this, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "fingerprint": "811961c11b7a9019751ddf8bfb0c5dde4b2076ca",
+            "host": "keybase.io",
+            "key_id": "fb0c5dde4b2076ca",
+            "uid": "dd8ea4a0a7cf805fc885cc3764ac2a00",
+            "username": "0x1a"
+        },
+        "revoke": {
+            "sig_ids": [
+                "8e9abb946a6a9c61aa23d4d7c3093cd13320bd27d651c2534799bfad70a7b1a90f"
+            ]
+        },
+        "service": {
+            "hostname": "0x1a.us",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "ctime": 1412089151,
+    "expire_in": 157680000,
+    "prev": "0d7cf1b3bd9129554f8d79a0355f6dafbe0abef64a2b17ca089044d06498faeb",
+    "seqno": 12,
+    "tag": "signature"
+}
+
+with the aforementioned key, yielding the PGP signature:
+
+-----BEGIN PGP MESSAGE-----
+Version: GnuPG v2
+
+owFtUm1QVFUYXkAUkRYqoCKmce+AkBLes/d7W2mKNBUatcFGRNjOuR/shdxdd5cF
+ZEDJMQTNsMQKR9RZ+VCEJAlDiYwgRixrMquJZkWJkiFExklIQDqXqZl+dP6cOc95
+3ud53nfeyocCdP5+UyGZvpTFnj6/y8NIl7a0J6WIQHapkDAVEbny3KWotmzZ6XCq
+NjdhIngABBaIACAOCiQQOAZIksIjBZEiI0kyjYwkx4qQSCCsdpdWgWUQdMmJqh1j
++GFRJYz+Dz9v7kOSeBnSkIScqPAko4g8z4gixbE0FI2QJDWiS3ba4FYZs8kCAIni
+BMIpe+y5shbXpWZjBxdhyiB4WYAICTQLWSiILIDQSEm0xIkUKVCiBCjKSCLJyEks
+A0QjQ9GcICAFShw2RwC3pxCZWBu7eVRxTlxr6T/OiXkuHMfhtLvtov11DFrdbodJ
+y+MudGikfBlZ/im3INUm4VHiAo/sdKl2G2ECmCm6VU0P0MBI8gJgQAIhFzhUp2xR
+NQbDsTyJj2YjezRfnF8BiEKSAIwCw9AKL3ECJCmGUVgJKkgmIZIVPC4jApwIsShJ
+0xLJ0gKvQBkRWkPbbHasbcQ5YTbWxDOzQff8PKdMFAeX+0fP0/n56+YH+mv7oAte
+GPbvkkx9FaarDaLrg7MWHjuw9t2i+wHRF96Jl3dEtr7ZW3K15mTSosyyis61q88s
+MVTn2K5Mo/4Nvuv6Iu+Jt8JK7lJd9Lz03VtWdHRW1ykfGupSd9QPWyy/zV4Jan2h
+OfPC9IJzkd7eZRFn25ZHrjoedTq5DRS4KszpC7hT0d0zgxRKdlMhM6Ul1R5vfLIv
+2XH7r7S+oq8V/fmCF88uM/w0kq9Lo440ULsOx+WsX8nfKDcf7e6J6hz6s8yqX3U+
+bnb3xbHwwAf3DlV9nNqWtaG/dMatK99vDqlNOMBGEYFlj41UxGQ17wufdSXVPdLM
+HroYG/PadvDBr9+C47frt77haDXIAatfiT89MLQzqmmMah/2d96zjfe9p7/bJFRG
+pHU8mzrUSPxu8d3Z90Uoq391yeaHs98f6xl9MBb10bbYdPvzZeaaW/ErnvGmeifa
+128evJTH5tf1ZoSm1Qw0NU1VbKr1+YV6yVPXchqWf/rZiPnnyf4tGZcSKv9IXBfx
+xI2b9QPfL/J1LW1Z59pubclXm7sTU2+mHJ0s3Hi1Z+VLz33SMH1txlxweXTjng7f
+SFzd4TXnrCZqcPyXW+PZpZmbSPZIbp5orejv8h7suU9kfLlY+bE9qfzzsNgsQ9X+
+iaozb19/HPrNNo/uLJ5sTJre63y5cdd3Pzy6t/5O7lOhx8pj9OEnnq4+GbTnyW9k
+diI0ruVv
+=T/Vs
+-----END PGP MESSAGE-----
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/0x1a
+
+==================================================================
+
