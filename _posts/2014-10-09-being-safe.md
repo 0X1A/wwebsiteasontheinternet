@@ -3,7 +3,7 @@ layout: post
 title: "Being Safe: A Safer (Better?) Kernel"
 date: 2014-10-09
 tags: dev
-desc: If only infants could run
+desc: 
 ---
 
 Ah C, the system programmers main maiden. One with pitfalls, caveats and major
