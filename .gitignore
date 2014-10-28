@@ -1,2 +1,4 @@
 _site
 *.pkg.*
+_includes/motor-include-index.md
+_includes/yabs-include-index.md
