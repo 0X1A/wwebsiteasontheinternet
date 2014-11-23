@@ -12,12 +12,6 @@ title: Tags - 0X1A
         <a href="{{ post.url }}">{{ post.title }}</a> | <span>{{ post.date | date_to_string }}</span>
         </li>
         {% endfor %}
-        <h3>KDE</h3>
-        {% for post in site.tags.kde limit: 20 %}
-        <li>
-        <a href="{{ post.url }}">{{ post.title }}</a> | <span>{{ post.date | date_to_string }}</span>
-        {% endfor %}
-        </li>
         <h3>Misc</h3>
         {% for post in site.tags.misc limit: 20 %}
         <li>
