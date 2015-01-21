@@ -5,54 +5,25 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
 <title>{{ page.title }}</title>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
 <!-- syntax highlighting CSS -->
 <link rel="stylesheet" href="/css/syntax.css">
-
 <!-- Custom CSS -->
 <link rel="stylesheet" href="/css/bootstrap.min.css">
 <link rel="stylesheet" href="/css/main.css">
 <link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700|Roboto:400,300,500,700|Droid+Sans+Mono|Droid+Serif:400,700' rel='stylesheet' type='text/css'>
 <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.1/css/font-awesome.css" rel="stylesheet">
 <link rel="shortcut icon" href="/img/icon.ico">
-
 </head>
-<body data-spy="scroll" data-target=".navbar">
-<nav class="navbar navbar-fixed-top navbar-default" role="navigation">
-    <div class ="container">
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-        </div>
-        <div class="collapse navbar-collapse navbar-ex1-collapse">
-            <ul class="nav navbar-nav">
-                <li class="active"><a id="Home" href="/" style="color:white" class="nav-icon">Home</a></li>
-            </ul>
-            <ul class="nav navbar-nav navbar-right">
-		<li><a href="http://git.0x1a.us" style="color:white" class="nav-icon">Git</a></li>
-		<li><a href="{{ site.url }}/ci" style="color:white" class="nav-icon">CI</a></li>
-	    </ul>
-        </div>
-    </div>
-</nav>
-<div id="sBlog" class="container">
+<h1 class="section-heading"><a href="{{ site.url }}/"}}">~</a></h1>
+<div class="container">
     <div class="site">
-
         {{ content }}
-
     </div>
 </div>
+{% include about.html %}
 <footer>
 <small>Copyright 2013-2014 Alberto Corona. All content released under <a href="https://creativecommons.org/licenses/by/3.0/">CC BY 3</a>. <a href="{{ site.url }}/disclaimer">Disclaimer</a></small>
 </footer>
-
-<script type='text/javascript' src='/js/jquery.js'></script>
-<script type='text/javascript' src='/js/bootstrap.min.js'></script>
-<script type='text/javascript' src='/js/page.js'></script>
 {% include stats.html %}
 </body>
 </html>
