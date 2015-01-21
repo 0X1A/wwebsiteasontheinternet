@@ -635,7 +635,7 @@ code,
 kbd,
 pre,
 samp {
-  font-family: Liberation Mono;
+  font-family: url(/usr/share/fonts/TTF/LiberationMono-Regular.ttf);
 }
 code {
   padding: 2px 4px;

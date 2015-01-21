@@ -73,7 +73,7 @@ a:visited { color: #303030; }
 
 .posts span {
     font-color: #ACACAC;
-    font-family: 'Liberation Mono', monospace;
+    font-family: url(/usr/share/fonts/TTF/LiberationMono-Regular.ttf), monospace;
     font-size: 1em;
 }
 
