@@ -87,7 +87,8 @@ a:visited { color: #303030; }
 .site {
     text-align: left;
     width: auto;
-    max-width: 70%;
+    min-width: 90%;
+    max-width: 90%;
     margin: .5em auto .5em;
     line-height: 1.5em;
 }
