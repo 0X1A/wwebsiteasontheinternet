@@ -19,7 +19,7 @@ img {
 
 .monospace {
     font-size: 14;
-    font-family: 'Droid Sans Mono', monospace;
+    font-family: 'Liberation Mono', monospace;
 }
 
 .section {
@@ -33,7 +33,7 @@ img {
 }
 
 .section-mono {
-    font-family: 'Droid Sans Mono';
+    font-family: 'Liberation Mono';
     color: #268BD2;
     font-size: 1em;
 }
