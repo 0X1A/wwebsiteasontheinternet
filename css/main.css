@@ -17,6 +17,7 @@ body {
 
 p { 
     margin: 1em 0;
+    max-width: 80ch;
 }
 
 .icon-row {
@@ -30,6 +31,7 @@ p {
 }
 
 img {
+    border-radius: 6px;
     display: block;
     margin: 0 auto;
     z-index: -1;
@@ -86,10 +88,9 @@ a:visited { color: #303030; }
 
 .site {
     text-align: left;
-    width: auto;
-    min-width: 90%;
-    max-width: 90%;
-    margin: .5em auto .5em;
+    display: flex;
+    justify-content:center;
+    align-items: center;
     line-height: 1.5em;
 }
 
