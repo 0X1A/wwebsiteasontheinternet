@@ -7,7 +7,7 @@ tags:
 desc: Get Ghost running on Apache
 ---
 
-In order to install Ghost using Apache using a subdomain you must go through
+In order to install Ghost using Apache using a sub-domain you must go through
 the regular given instructions to install Ghost and use this Apache config for
 your Ghost instance (create the file in `/etc/apache2/sites-available` and name
 it `whateveryouwant.conf`):
@@ -65,7 +65,7 @@ sudo npm install forever -g
 NODE_ENV=production forever start index.js
 {% endhighlight %}
 
-You could now go to the subdomain used in `ServerName` and set up your instance
+You could now go to the sub-domain used in `ServerName` and set up your instance
 of Ghost by going to `your.blog.com/ghost/signup`.
 
 ###Forbid Access to Your Directory
