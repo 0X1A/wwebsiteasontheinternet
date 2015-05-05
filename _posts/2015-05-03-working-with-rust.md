@@ -16,9 +16,10 @@ experienced such a stern yelling about my code other than with that of Rust's
 language was having my program behave in a way I did not mean for it to. This
 was often due to pointers, and pointer arithmetic. Though this post serves less
 as an introduction to Rust and more to share my experience using Rust and my
-decision to use it for rewriting the GNU coreutils. This rewrite served as both
-a means to become more proficient in Rust and to hopefully build something that
-I and possibly others could use.
+decision to use it for [rewriting the GNU
+coreutils](https://github.com/0X1A/core-utils). This rewrite served as both a
+means to become more proficient in Rust and to hopefully build something that I
+and possibly others could use.
 
 ## The Transition
 
