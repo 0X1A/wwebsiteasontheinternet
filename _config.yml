@@ -1,7 +1,7 @@
 name: Alberto Corona
 markdown: redcarpet
 highlighter: pygments
-exclude: [mkpkgs.sh, mkpost.sh, mksite.sh]
+exclude: [bin]
 
 paginate: 5
 paginate_path: "page:num"
