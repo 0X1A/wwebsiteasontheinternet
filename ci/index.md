@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: index
 title: Continuous Integration - 0X1A
 ---
 

@@ -2,6 +2,7 @@ name: Alberto Corona
 markdown: redcarpet
 highlighter: pygments
 exclude: [bin]
+excerpt_separator: <!--more-->
 
 paginate: 5
 paginate_path: "page:num"

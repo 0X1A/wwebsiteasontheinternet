@@ -2,7 +2,6 @@
 layout: post
 title: "Jekyll for Slinging Pages"
 date: 2014-02-11
-tags: misc
 desc: Throw pretty things at visitor's faces
 ---
 

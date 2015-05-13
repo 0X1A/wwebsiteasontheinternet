@@ -2,7 +2,6 @@
 layout: post
 title:  "/etc/os-release"
 date:   2013-11-11
-tags: dev
 desc: A shell script for all
 ---
 
@@ -16,7 +15,7 @@ information such as the distribution name, webpage url, support url and a bug
 reporting url.
 
 Output of `cat /etc/os-release` on Arch Linux:
-{% highlight bash %}
+{% highlight bash linenos %}
 NAME="Arch Linux"
 ID=arch
 PRETTY_NAME="Arch Linux"
@@ -27,7 +26,7 @@ BUG_REPORT_URL="https://bugs.archlinux.org/"
 {% endhighlight %}
 This makes it easy to find the distribution name on LSB compliant
 distributions. An example of this would be something like:
-{% highlight bash %}
+{% highlight bash linenos %}
 #!/bin/bash
 
 DIST=/etc/os-release

@@ -2,11 +2,8 @@
 layout: post
 title: "Working with Rust"
 date: 2015-05-01
-tags: dev
 desc: Re-implementing The GNU coreutils in Rust
 ---
-
-## Getting To Know All About You
 
 Rust is a programming language currently being developed by Mozilla Research.
 Its main feature list includes: memory safety, preventing almost all crashes,
@@ -82,7 +79,7 @@ how my implementation of `cp` in Rust compares to the `cp` in GNU coreutils. I
 performed this test by copying a 70.6 GB, 9,926 item music directory with `perf
 stat -B` to two different disks.
 
-{% highlight bash %}
+{% highlight bash linenos %}
 cargo build --release:
  Performance counter stats for './target/release/cp -r $HOME/Seagate/Music/ $HOME/TEST-COPY':
 
@@ -138,7 +135,7 @@ is a file, I know it **must** then have a file name). Here `walk_dir_copy`
 returns the Result of reading a directory and its contents using the `try!`
 macro.
 
-{% highlight rust lineos %}
+{% highlight rust linenos %}
 fn walk_dir_copy(from: PathBuf, mut to: PathBuf) -> io::Result<()> {
     if from.is_dir() {
         if !to.exists() {
@@ -179,7 +176,7 @@ system, manages dependencies, metadata, publishing, build targets, and features
 within a project using a TOML configuration file.  For example, core-utils'
 current configuration (edited for brevity):
 
-{% highlight TOML %}
+{% highlight TOML linenos %}
 [package]
 name = "core-utils"
 version = "0.1.0"

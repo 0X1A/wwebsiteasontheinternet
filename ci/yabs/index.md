@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: index
 title: Yabs Status - 0X1A
 ---
 

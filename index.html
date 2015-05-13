@@ -1,39 +1,38 @@
 ---
-layout: homepage
+layout: index
 title: Home - 0X1A
 ---
 
-<div class="row">
-	<div class="col-lg-12 section" style="background: white">
-		{% for post in paginator.posts %}
-		<h1 class="section-heading"><a href="{{post.url}}">{{ post.title }}</a></h1>
-			<p class="section-lead">{{ post.desc }}</p>
-			<p class="meta"><i class="fa fa-calendar"></i> {{ post.date | date_to_string }} | <a href="{{ site.url }}/tags"> <i class="fa fa-tags"></i> {{ post.tags }}</a></p>
-			<hr>
-		{% endfor %}
-	<div class="text-center">
-		<ul class="pagination">
-			{% if paginator.previous_page %}
-			{% if paginator.previous_page != 1 %}
-			<li><a href="{{ site.url }}">Newest</a></li>
-			<li><a href="{{ site.url }}">Previous</a></li>
-			{% else %}
-			<li><a href="/">Newest</a></li>
-			<li><a href="/">Previous</a></li>
-			{% endif %}
-			{% else %}
-			<li class="disabled"><span>Newest</span></li>
-			<li class="disabled"><span>Previous</span></li>
-			{% endif %}
-			{% if paginator.next_page %}
-			<li><a href="/page{{ paginator.next_page }}">Next</a></li>
-			<li><a href="/page{{ paginator.total_pages }}">Oldest</a></li>
-			{% else %}
-			<li class="disabled"><span>Next</span></li>
-			<li class="disabled"><span>Oldest</a></li>
-			{% endif %}
-		</ul>
-		</div>
-		<div class="text-center">Page {{ paginator.page }} of {{ paginator.total_pages }}</div>
-	</div>
+{% for post in paginator.posts %}
+<h1><a href="{{post.url}}">{{ post.title }}</a></h1>
+<h4>{{ post.desc }}</h4>
+<p class="meta"><i class="fa fa-calendar"></i> {{ post.date | date: '%B %d, %Y' }}</p>
+<p>{{ post.excerpt | strip_html | truncatewords: 40 }}</p>
+<hr>
+{% endfor %}
+<div class="text-center">
+    <ul class="pagination">
+        {% if paginator.previous_page %}
+        {% if paginator.previous_page != 1 %}
+        <li><a href="{{ site.url }}">Newest</a></li>
+        <li><a href="{{ site.url }}">Previous</a></li>
+        {% else %}
+        <li><a href="/">Newest</a></li>
+        <li><a href="/">Previous</a></li>
+        {% endif %}
+        {% else %}
+        <li class="disabled"><span>Newest</span></li>
+        <li class="disabled"><span>Previous</span></li>
+        {% endif %}
+        {% if paginator.next_page %}
+        <li><a href="/page{{ paginator.next_page }}">Next</a></li>
+        <li><a href="/page{{ paginator.total_pages }}">Oldest</a></li>
+        {% else %}
+        <li class="disabled"><span>Next</span></li>
+        <li class="disabled"><span>Oldest</span></li>
+        {% endif %}
+    </ul>
+</div>
+<div class="text-center">
+    Page {{ paginator.page }} of {{ paginator.total_pages }}
 </div>

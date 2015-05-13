@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: index
 title: Motor Status - 0X1A
 ---
 

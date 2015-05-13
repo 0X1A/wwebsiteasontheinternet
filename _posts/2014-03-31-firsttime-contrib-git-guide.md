@@ -29,12 +29,12 @@ here.
 Creating a gpg key is out of the scope of this post though the [GnuPG
 manual](http://www.gnupg.org/gph/en/manual.html#INTRO) is the best resource for
 this. You can set a global gpg key to sign with with:
-{% highlight bash %}
+{% highlight bash linenos %}
 $ git config --global user.sign key 00XX11AA
 {% endhighlight %}
 where `00XX11AA` corresponds with your public key.
 So then, to sign a commit both with your gpg key and SoB simply run:
-{% highlight bash %}
+{% highlight bash linenos %}
 $ git commit -Ss
 {% endhighlight %}
 Passing both options `-Ss`, signs your commit with your set gpg key and adds 
@@ -45,7 +45,7 @@ So you've committed changes to the repo on your branch and now you're ready to
 show off your work, but how? Well, git can format patches for you. A patch is
 essentially a diff between the changes you've made and the master branch.
 To create a patch you run:
-{% highlight bash %}
+{% highlight bash linenos %}
 $ git format-patch origin/master
 0001-Your-commit-message.patch
 {% endhighlight %}
@@ -53,7 +53,7 @@ You now have a patch ready to submit to your project's mailing list and/or
 maintainer. To do this you can use git's `send-email` feature, though to do
 that you must have git configured with your email. A typical configuration for
 gmail would look like this:
-{% highlight bash %}
+{% highlight bash linenos %}
 [sendemail]
 from = YourName <you@gmail.com>
 smtpserver = smtp.gmail.com
@@ -65,7 +65,7 @@ smtpserverport = 587
 
 Now that you've got git configured with your email you can go ahead and send
 that patch.
-{% highlight bash %}
+{% highlight bash linenos %}
 $ git send-email 0001-Your-commit-message.patch --to="Project Mailing list 
 <project@mailinglist.org>" --cc="Project Maintainer <maintainer@email.com>"
 {% endhighlight %}
@@ -77,7 +77,7 @@ No HTML, don't reply to digests, no top posting. As a first time active
 participant in a mailing list I had no clue what top/bottom posting was, so
 here's a quick run down of what both look like.
 ### Top Posting
-{% highlight text %}
+{% highlight text linenos %}
 Yes, I can apply this patch, thanks.
 
 > On 30 Mar 2014, at 18:26, Friend <friend@email.com> wrote:
@@ -87,7 +87,7 @@ Yes, I can apply this patch, thanks.
 {% endhighlight %}
 
 ### Bottom Posting
-{% highlight text %}
+{% highlight text linenos %}
 > On 30 Mar 2014, at 18:26, Friend <friend@email.com> wrote:
 > The attached patch tries to resolve the looping issue with the
 > "entered" branch of yours. I am assuming that you were referring to

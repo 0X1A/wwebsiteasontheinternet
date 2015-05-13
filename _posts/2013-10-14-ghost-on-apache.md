@@ -13,7 +13,7 @@ your Ghost instance (create the file in `/etc/apache2/sites-available` and name
 it `whateveryouwant.conf`):
 
 ###whateveryouwant.conf
-{% highlight http %}
+{% highlight http linenos %}
 <VirtualHost *:80>
     ServerName your.blog.com
     ProxyPass / http://127.0.0.1:2368/
@@ -30,7 +30,7 @@ redirect to the path that Ghost is installed into. Enable the mods `proxy` and
 In order to connect to your server using a proxy you must change your
 `config.js` to reflect the changes done as so by chaning both the `url` and
 `host` sections:
-{% highlight javascript %}
+{% highlight javascript linenos %}
     // ### Production
     // When running Ghost in the wild, use the production environment
     // Configure your URL and mail settings here
@@ -60,7 +60,7 @@ also made recently to help enable Ghost run forever. It's often better to avoid
 platform specific configurations, so it's best to go with the forever package
 using:
 ###forever
-{% highlight bash %}
+{% highlight bash linenos %}
 sudo npm install forever -g
 NODE_ENV=production forever start index.js
 {% endhighlight %}
@@ -74,7 +74,7 @@ your blog directory through your main domain from [http://domain.com/blog](#).
 In order to prevent this you must forbid access to that directory by modifying
 `/etc/apache2/sites-available/default` (may also be named `000-default`) with
 the following:
-{% highlight http %}
+{% highlight http linenos %}
 <DirectoryMatch /var/www/(directory to ghost)>
     Order allow,deny
     Deny from all

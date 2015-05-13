@@ -2,7 +2,6 @@
 layout: post
 title:  "Using PhysFS and SDL2"
 date:   2013-12-28 10:03:24
-tags: dev
 desc: Somewhere out there, in memory
 ---
 
@@ -19,7 +18,7 @@ of using SDL)
 
 ### 1. Setting the archive 
 Before opening a file we must first set an archive for PhysFS to open
-{% highlight c++ %}
+{% highlight c++ linenos %}
 int SetArchive(const std::string Archive) 	    \\Function to set the archive being opened
 {
     PHYSFS_mount(Archive.c_str(), NULL, 1); 	\\For details on (arg, NULL, 1) read 
@@ -31,7 +30,7 @@ int SetArchive(const std::string Archive) 	    \\Function to set the archive bei
 ### 2. Opening the file
 Now that the archive is set a file within it can be opened. This function opens 
 a file within the arcive set by `SetArchive`.
-{% highlight c++ %}
+{% highlight c++ linenos %}
 const char *OpenFile(const std::string O_File)
 {
 	PHYSFS_openRead(O_File.c_str());
@@ -47,7 +46,7 @@ const char *OpenFile(const std::string O_File)
 ### 3. Loading using SDL
 The file is now on memory and can be passed to SDL_RWops (this example is 
 assuming you want to load an image to a surface and loading it to a texture):
-{% highlight c++ %}
+{% highlight c++ linenos %}
 int LoadAsset(const std::string Asset)
 {
 	OpenFile(Asset.c_str());
@@ -61,7 +60,7 @@ int LoadAsset(const std::string Asset)
 ### 4. Freeing memory
 With the provided functions memory is being used but not freed and memory leaks 
 are bad.
-{% highlight c++ %}
+{% highlight c++ linenos %}
 int FreeMemory()
 {
 	SDL_FreeSurface(TempSurface);
@@ -74,7 +73,7 @@ int FreeMemory()
 
 ### Using everything together
 
-{% highlight c++ %}
+{% highlight c++ linenos %}
 SetArchive("Content/test.zip");
 LoadAsset("testimage.png");
 FreeMemory();

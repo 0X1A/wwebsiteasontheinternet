@@ -2,7 +2,6 @@
 layout: post
 title:  "(At Least) A Commit a Day for 30 Days"
 date: 2013-12-02
-tags: misc
 desc: A commit a day keeps the incompetence away
 ---
 
