@@ -10,6 +10,6 @@ title: Continuous Integration - 0X1A
 	<h1 class="section-heading"><a href="{{ site.url }}/ci/yabs">Yabs</a></h1>
 	<a href="{{ site.url }}/ci/yabs"><img style="float:left; padding-right:10px" src="{{ site.url }}/img/yabs-build.png"><img style="float:left" src="{{ site.url }}/img/yabs-coverage.png"></a></br></br>
 	<h1 class="section-heading"><a href="{{ site.url }}/ci/core-utils">core-utils</a></h1>
-	<a href="{{ site.url }}/ci/yabs"><img style="float:left; padding-right:10px" src="{{ site.url }}/img/yabs-build.png"></a></br></br>
+	<a href="{{ site.url }}/ci/yabs"><img style="float:left; padding-right:10px" src="{{ site.url }}/img/core-utils-build.png"></a></br></br>
     </div>
 </div>
