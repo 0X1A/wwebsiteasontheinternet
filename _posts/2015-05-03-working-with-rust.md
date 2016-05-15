@@ -176,7 +176,7 @@ system, manages dependencies, metadata, publishing, build targets, and features
 within a project using a TOML configuration file.  For example, core-utils'
 current configuration (edited for brevity):
 
-{% highlight TOML linenos %}
+{% highlight shell linenos %}
 [package]
 name = "core-utils"
 version = "0.1.0"
